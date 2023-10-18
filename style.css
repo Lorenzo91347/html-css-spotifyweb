@@ -1,11 +1,4 @@
 /*
-Imports
-*/
-
-@import url(dbug.css);
-@import url(responsive.css);
-
-/*
 Format and Color
 */
 
@@ -34,13 +27,17 @@ body {
 Macro Sections
 */
 
-.macromain {
+.macro-main {
     display: flex;
 }
 
 .macro-sct-l {
     width: 3.125rem;
-    height: 100vh;
+    height: 62.8125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .macro-sct-r {
@@ -56,4 +53,63 @@ Macro Sections
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+}
+
+/*
+Icons Left Bar
+*/
+
+.spotify-logo {
+    height: 40px
+}
+
+.lb-icon {
+    height: 30px
+}
+
+
+/*
+Upgrade Button Top
+*/
+
+.upgrade {
+    width: 13.4375rem;
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 1.25rem;
+
+}
+
+/*
+Bottom Bar
+*/
+
+.bottom-left,
+.bottom-right {
+    padding: 1.375rem .6875rem;
+
+}
+
+
+.bottom-left {
+    text-align: left;
+    width: 20%;
+}
+
+.bottom-right {
+    text-align: right;
+    width: 20%;
+}
+
+
+.bottom-middle {
+    width: 50%;
+    text-align: center;
+    padding: 12px 0;
 }

@@ -1,6 +1,8 @@
 @media screen and (min-width: 54.875rem) {
     .macro-sct-l {
         width: 230px;
+        transition: 1s;
+
     }
 
 }
