@@ -47,3 +47,14 @@ Macro Sections
     width: 80vw;
     height: 100vh;
 }
+
+.macro-top {
+    height: 5.625rem;
+}
+
+.macro-bottom {
+    height: 5.625rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

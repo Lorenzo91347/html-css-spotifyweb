@@ -4,10 +4,20 @@ side,top and bottom
 
 .Macro-sct-l {
     background-color: blue;
-    border: 1px solid;
+
 }
 
 .Macro-sct-r {
     background-color: orange;
-    border: 1px solid;
+
+}
+
+.macro-top {
+    background-color: brown;
+
+}
+
+.macro-bottom {
+    background-color: green;
+
 }
