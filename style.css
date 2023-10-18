@@ -3,6 +3,7 @@ Imports
 */
 
 @import url(dbug.css);
+@import url(responsive.css);
 
 /*
 Format and Color
@@ -26,26 +27,24 @@ Format and Color
 
 body {
     height: 68.4375rem;
+
 }
-
-
-
 
 /*
 Macro Sections
 */
+
 .macroMain {
     display: flex;
 }
 
 .Macro-sct-l {
-    width: 20vw;
+    width: 3.125rem;
     height: 100vh;
 }
 
 .Macro-sct-r {
-    width: 80vw;
-    height: 100vh;
+    width: 100%;
 }
 
 .macro-top {
