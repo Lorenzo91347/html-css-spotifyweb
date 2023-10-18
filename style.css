@@ -34,16 +34,16 @@ body {
 Macro Sections
 */
 
-.macroMain {
+.macromain {
     display: flex;
 }
 
-.Macro-sct-l {
+.macro-sct-l {
     width: 3.125rem;
     height: 100vh;
 }
 
-.Macro-sct-r {
+.macro-sct-r {
     width: 100%;
 }
 
