@@ -1,6 +1,49 @@
+/*
+Imports
+*/
+
+@import url(dbug.css);
+
+/*
+Format and Color
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --main-bg: #141922;
+    --tpbt-bg: #080b12;
+    --sd-bg: #000000;
+    --chr-clr: #7d7f84;
+    --hvr-clr: #d2d2d2;
+    --under-clr: #adff2f;
+}
+
+body {
+    display: flex;
+}
+
+
+
+
+/*
+Macro Sections
+*/
+.macroMain {
+    display: flex;
+}
+
+.Macro-sct-l {
+    width: 20vw;
+    height: 100vh;
+}
+
+.Macro-sct-r {
+    width: 80vw;
+    height: 100vh;
 }
