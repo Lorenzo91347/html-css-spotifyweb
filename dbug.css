@@ -1,41 +1,29 @@
-body {
-    background-color: orange;
-}
-
 /*
 side,top and bottom
 */
 
-.macro-sct-l {
-    background-color: blue;
-
-}
 
 
 
-.macro-top {
-    background-color: brown;
 
-}
 
-.macro-bottom {
-    background-color: green;
 
-}
+
+
+
+
+
 
 /*
 Icons left Bar
 */
 
-.spotify-logo {
-    background-color: aqua;
-    border: 1px solid;
-}
 
-.lb-icon {
-    background-color: blueviolet;
-    border: 1px solid;
-}
+
+
+
+
+
 
 /*
 Bottom Bar
@@ -44,6 +32,6 @@ Bottom Bar
 .bottom-left,
 .bottom-middle,
 .bottom-right {
-    background-color: red;
-    border: 1px solid;
+
+    border: 1px solid white;
 }

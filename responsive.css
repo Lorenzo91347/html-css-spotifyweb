@@ -1,8 +1,16 @@
-@media screen and (min-width: 54.875rem) {
+@media screen and (min-width: 39.9375rem) {
     .macro-sct-l {
         width: 230px;
         transition: 1s;
 
+    }
+
+    .logo1 {
+        display: none;
+    }
+
+    .logo2 {
+        display: block;
     }
 
 }

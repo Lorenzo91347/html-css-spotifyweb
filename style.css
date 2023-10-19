@@ -11,15 +11,19 @@ Format and Color
 
 :root {
     --main-bg: #141922;
-    --tpbt-bg: #080b12;
+    --tp-bg: #080b12;
+    --bt-bg: #282828;
     --sd-bg: #000000;
     --chr-clr: #7d7f84;
     --hvr-clr: #d2d2d2;
     --under-clr: #adff2f;
+    --tlb-clr: #ffffff;
 }
 
 body {
-    height: 68.4375rem;
+    height: 100vh;
+    color: #717171;
+    background-color: var(--main-bg);
 
 }
 
@@ -38,6 +42,8 @@ Macro Sections
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
+    background-color: var(--sd-bg);
+    padding: .625rem;
 
 }
 
@@ -47,6 +53,7 @@ Macro Sections
 
 .macro-top {
     height: 5.625rem;
+    background-color: var(--tp-bg);
 }
 
 .macro-bottom {
@@ -57,18 +64,38 @@ Macro Sections
     display: flex;
     justify-content: space-between;
     align-items: middle;
+    background-color: var(--bt-bg);
+}
+
+.macro-center {
+    width: 100%;
+    height: 100%;
+
 }
 
 /*
-Icons Left Bar
+Icons and List Left Bar
 */
 
 .spotify-logo {
     height: 40px
 }
 
+.spotify-logo img {
+    width: 2.5rem;
+}
+
+.logo2 {
+    display: none
+}
+
 .lb-icon {
     height: 30px
+}
+
+.lb-playlist {
+    height: 20rem;
+    overflow-y: auto;
 }
 
 
