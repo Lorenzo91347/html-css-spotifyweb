@@ -78,10 +78,10 @@ Icons and List Left Bar
 */
 
 .spotify-logo {
-    height: 40px
+    height: 40px;
 }
 
-.spotify-logo img {
+.logo-1 {
     width: 2.5rem;
 }
 
@@ -93,9 +93,38 @@ Icons and List Left Bar
     height: 30px
 }
 
+.lb-icon img {
+    width: 1.25rem;
+}
+
+.lb-icon span {
+    display: none;
+}
+
 .lb-playlist {
     height: 20rem;
     overflow-y: auto;
+    display: none;
+    margin-top: 1.875rem;
+}
+
+.lb-playlist h4 {
+    color: var(--tlb-clr);
+}
+
+.lb-playlist .create {
+    text-align: justify;
+}
+
+.lb-playlist i {
+    font-size: 35px;
+
+}
+
+.lb-playlist ol li {
+    margin-bottom: 30px;
+    font-weight: bold;
+
 }
 
 

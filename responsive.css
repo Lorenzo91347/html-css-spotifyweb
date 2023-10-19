@@ -2,7 +2,17 @@
     .macro-sct-l {
         width: 230px;
         transition: 1s;
+        padding: 20px 10px 0;
 
+    }
+
+    .logo2,
+    .lb-playlist {
+        display: block;
+    }
+
+    .spotify-logo {
+        margin-bottom: 1.5625rem;
     }
 
     .logo1 {
@@ -10,7 +20,11 @@
     }
 
     .logo2 {
-        display: block;
+        width: 8.125rem;
+    }
+
+    .lb-icon span {
+        display: inline-block;
     }
 
 }
