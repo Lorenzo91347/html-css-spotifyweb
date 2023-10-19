@@ -27,4 +27,29 @@
         display: inline-block;
     }
 
+    .sbimage1,
+    .sbimage2 {
+        justify-content: left;
+        gap: .75rem;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .sbimage1 div,
+    .sbimage2 div {
+        display: inline-block;
+
+    }
+
+    .lb-icon1 {
+        border-bottom: 1px solid var(--chr-clr);
+    }
+
+}
+
+@media screen and (min-width: 54.875rem) {
+    .bottom-l-2 i:nth-child(2) {
+        display: inline;
+    }
+
 }

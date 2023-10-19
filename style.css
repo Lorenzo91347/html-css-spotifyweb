@@ -110,14 +110,14 @@ Icons and List Left Bar
 
 .lb-playlist h4 {
     color: var(--tlb-clr);
+    margin-bottom: .9375rem;
 }
 
-.lb-playlist .create {
-    text-align: justify;
-}
+
 
 .lb-playlist i {
     font-size: 35px;
+    margin-bottom: 1.5625rem;
 
 }
 
@@ -127,6 +127,35 @@ Icons and List Left Bar
 
 }
 
+.lb-icon2 {
+    margin-top: 15px
+}
+
+.sbimage1,
+.sbimage2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sbimage1 img {
+    width: .9375rem;
+}
+
+.sbimage1 div,
+.sbimage2 div {
+    display: none;
+}
+
+.sbimage2 img {
+    width: 1.5625rem;
+    border-radius: 50%;
+    background-color: #717171;
+}
+
+.sbimage2 :nth-child(2) {
+    color: #ffffff;
+    font-weight: bold;
+}
 
 /*
 Upgrade Button Top
@@ -135,11 +164,14 @@ Upgrade Button Top
 .upgrade {
     width: 13.4375rem;
     padding: 10px;
-    border: 1px solid;
+    border: 2px solid;
     text-align: center;
     position: absolute;
     right: 0;
     top: 1.25rem;
+    color: #ffffff;
+    border-radius: 2.938rem;
+    margin-right: 20px;
 
 }
 
@@ -147,26 +179,101 @@ Upgrade Button Top
 Bottom Bar
 */
 
-.bottom-left,
-.bottom-right {
+.bottom-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     padding: 1.375rem .6875rem;
 
 }
 
-
-.bottom-left {
-    text-align: left;
-    width: 20%;
+.bottom-left img {
+    width: 30px;
 }
 
-.bottom-right {
-    text-align: right;
-    width: 20%;
+.bottom-l-1 {
+    font-weight: bold;
+    font-size: .75rem;
+    width: 40%;
 }
+
+.bottom-l-1 span:first-child {
+    color: #ffffff;
+}
+
+
+
+.bottom-l-2 i:nth-child(2) {
+    display: block;
+}
+
 
 
 .bottom-middle {
     width: 50%;
     text-align: center;
     padding: 12px 0;
+}
+
+.bm-btns {
+    letter-spacing: 9px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.bm-btns i:nth-child(3) {
+    font-size: 28px;
+    margin: 0 15px 0;
+    vertical-align: -12%;
+}
+
+.playbar-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-top: 1.25rem;
+}
+
+.bm-playbar {
+    width: 15.625rem;
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 22px;
+    margin: 0 5% 0;
+}
+
+.bm-playbar div:first-child {
+    width: 20%;
+    background-color: #c1c1c1;
+    height: 5px;
+    border-radius: 15px;
+}
+
+.bottom-right {
+    width: 25%;
+    color: #fff;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-right div {
+    font-size: 12px;
+}
+
+.bottom-right-bar {
+    width: 50%;
+    height: 3px;
+    background-color: #5a5a5a;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.bottom-right-bar div {
+    width: 20%;
+    height: 3px;
+    background-color: #c1c1c1;
+    border-radius: 15px;
 }
