@@ -1,11 +1,33 @@
+.lb-icon:hover,
+.lb-icon1:hover,
+li:hover,
+.lb-playlist span:hover {
+    color: white;
+}
+
+
+.upgrade:hover {
+    width: 14.438rem;
+    padding: 12px;
+}
+
 .playbutton:hover {
     opacity: 1;
 }
 
 .bm-playbar div:first-child:hover {
     background-color: var(--under-clr);
+
 }
 
-.bm-playbar div i:hover {
+.bm-playbar:hover div i {
+    opacity: 1;
+}
+
+.bottom-right-bar div:hover {
+    background-color: var(--under-clr);
+}
+
+.bottom-right-bar:hover div i {
     opacity: 1;
 }
