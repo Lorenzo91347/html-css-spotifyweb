@@ -1,0 +1,11 @@
+.playbutton:hover {
+    opacity: 1;
+}
+
+.bm-playbar div:first-child:hover {
+    background-color: var(--under-clr);
+}
+
+.bm-playbar div i:hover {
+    opacity: 1;
+}

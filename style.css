@@ -57,7 +57,7 @@ Macro Sections
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
     width: calc(100% - 3.125rem);
-    left: 3.125rem;
+    z-index: 6;
 
 }
 
@@ -228,13 +228,22 @@ Center Section
     position: absolute;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.macro-cnt-imgplay {
+    position: relative;
+
 }
 
 .macro-cnt-item1,
 .macro-cnt-item2 {
     width: calc(100% /2 - .625rem);
     text-align: center;
-    position: relative;
+
 }
 
 .macro-cnt-item1 h3 {
@@ -319,6 +328,7 @@ Bottom Bar
     background-color: #5a5a5a;
     border-radius: 22px;
     margin: 0 5% 0;
+
 }
 
 .bm-playbar div:first-child {
@@ -326,7 +336,18 @@ Bottom Bar
     background-color: #c1c1c1;
     height: 5px;
     border-radius: 15px;
+    position: relative;
 }
+
+.bm-playbar div i {
+    position: absolute;
+    right: 0;
+    top: -3px;
+    color: white;
+    opacity: 0;
+}
+
+
 
 .bottom-right {
     width: 25%;
