@@ -219,10 +219,22 @@ Center Section
     margin-left: 1.25rem;
 }
 
+.playbutton {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 3.75rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .macro-cnt-item1,
 .macro-cnt-item2 {
     width: calc(100% /2 - .625rem);
     text-align: center;
+    position: relative;
 }
 
 .macro-cnt-item1 h3 {
