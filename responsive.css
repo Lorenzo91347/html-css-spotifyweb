@@ -1,3 +1,8 @@
+/*
+Responsive S
+*/
+
+
 @media screen and (min-width: 39.9375rem) {
     .macro-sct-l {
         width: 230px;
@@ -55,6 +60,10 @@
 
 }
 
+/*
+Responsive MD
+*/
+
 @media screen and (min-width: 54.875rem) {
     .bottom-l-2 i:nth-child(2) {
         display: inline;
@@ -66,6 +75,10 @@
     }
 
 }
+
+/*
+Responsive LG
+*/
 
 @media screen and (min-width: 90rem) {
 
