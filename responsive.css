@@ -1,9 +1,13 @@
 @media screen and (min-width: 39.9375rem) {
     .macro-sct-l {
         width: 230px;
-        transition: 1s;
         padding: 20px 10px 0;
 
+    }
+
+    .macro-top {
+        width: calc(100% - 14.375rem);
+        left: 14.375rem;
     }
 
     .logo2,
@@ -45,6 +49,10 @@
         border-bottom: 1px solid var(--chr-clr);
     }
 
+    .macro-center {
+        padding: 5.625rem 0 0 14.375rem;
+    }
+
 }
 
 @media screen and (min-width: 54.875rem) {
@@ -52,4 +60,17 @@
         display: inline;
     }
 
+    .macro-cnt-item1,
+    .macro-cnt-item2 {
+        width: calc(100% /4 - .625rem);
+    }
+
+}
+
+@media screen and (min-width: 90rem) {
+
+    .macro-cnt-item1,
+    .macro-cnt-item2 {
+        width: calc(100% /6 - .625rem);
+    }
 }
